@@ -33,7 +33,7 @@ The command that this plug-in adds is (at most) this:
 
     "command": "scroll_width", "args": {"by_character": True, "amount": 30}
 
-`amount` is simply and indicator of how far every call to `scroll_width` will move the screen. If `by_character` is set left `True` motion is based on the width of the average character, thereby scaling with your font size. If `by_character` is `False`, `scroll_width` will move the screen by `amount` of pixels (I'd strongly recommend pumping `amount` up to at least 150 if you're not scrolling `by_character`). 
+`by_character` defaults to `True`, so if you ever set this command up, you can skip that argument. `amount` is simply an indicator of how far every call to `scroll_width` will move the screen. If `by_character` is left `True` motion is based on the width of an em-dash, thereby scaling motion with your current font size. If `by_character` is `False`, `scroll_width` will move the screen by `amount` of raw pixels (I'd strongly recommend pumping `amount` up to at least 150 if you're not scrolling `by_character`). 
 
 -----
 
