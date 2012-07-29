@@ -1,9 +1,9 @@
 import sublime, sublime_plugin
 
 class ScrollWidthCommand(sublime_plugin.TextCommand):
-    def run(self, edit, by_character=True, amount):
+    def run(self, edit, amount, by_character=True):
         old_position = self.view.viewport_position()
-        delta = amount * (1 if by != "characters" else self.view.em_width())
+        delta = amount * (self.view.em_width() if by_character else 1)
         new_x = old_position[0] + delta
 
         # Are we moving right?
