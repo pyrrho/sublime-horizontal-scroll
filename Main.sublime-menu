@@ -11,13 +11,10 @@
                 "id": "scroll",
                 "children":
                 [
-                    { "command": "show_at_center", "caption": "Scroll to Selection" },
-                    { "command": "scroll_lines", "args": {"amount": 1.0 }, "caption": "Line Up" },
-                    { "command": "scroll_lines", "args": {"amount": -1.0 }, "caption": "Line Down" }
+                    { "command": "scroll_width", "args": {"amount": 30}, "caption": "Scroll Right"},
                     { "command": "scroll_width", "args": {"amount": -30}, "caption": "Scroll Left"}
-                    { "command": "scroll_width", "args": {"amount": 30}, "caption": "Scroll Right"}
                 ]
-            },
+            }
         ]
     }
 ]
