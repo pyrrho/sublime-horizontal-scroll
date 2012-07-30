@@ -18,7 +18,7 @@ Actually, I'm not set up there yet, so I'm going to focus on getting this packag
 
 Is this plug-in installed?  
 Is there text running off the edge of your editor?  
-Press `alt+up`.
+Press `alt+down`.
 
 Done.
 
@@ -27,7 +27,7 @@ Done.
 ## The Long
 
 This plug-in adds one command to Sublime Text 2 which exposes an easy-to-use horizontal scrolling, and makes a guess as to how to incorporate it for you.  
-By default, the hotkeys to scroll right and left are `alt+up` and `alt+down` respectively -- chosen to reflect Sublime's default `scroll_lines` behavior (`ctrl+up/down`). This, of course, can be mapped to any hotkey combination you might by want by modifying your personal `Preferences -> Key Bindings - User`.
+By default, the hotkeys to scroll right and left are `alt+down` and `alt+up` respectively -- chosen to reflect Sublime's default `scroll_lines` behavior (`ctrl+up/down`). This, of course, can be mapped to any hotkey combination you might by want by modifying your personal `Preferences -> Key Bindings - User`.
 
 The command that this plug-in adds is (at most) this:
 
