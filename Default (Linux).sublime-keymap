@@ -1,4 +1,4 @@
 [
-    { "keys": ["alt+up"], "command": "scroll_width", "args": {"amount": 30 } },
-    { "keys": ["alt+down"], "command": "scroll_width", "args": {"amount": -30 } }
+    { "keys": ["alt+down"], "command": "scroll_width", "args": {"amount": 30 } },
+    { "keys": ["alt+up"], "command": "scroll_width", "args": {"amount": -30 } }
 ]
