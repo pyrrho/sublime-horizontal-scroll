@@ -8,32 +8,41 @@ for [Sublime Text 2][0]
 Ever wanted to scroll horizontally in Sublime Text 2 with your keyboard?  
 Well. Now you can.
 
-### Installation
+## Installation
 
-Actually, I'm not set up there yet, so I'm going to focus on getting this package made before providing installation instructions.
+**Step 1** -- Go get wbond's beautifully simple [Sublime Package-Control][2].  
+**Step 2** -- Hit `ctrl+shift+p` (Windows, Linux) or `cmd+shift+p` (OSX), run the `install package` command.  
+**Step 3** -- Search for and install _Horizontal Scroll_.
+
+**Step 4** -- Win and/or Profit.
 
 -----
 
-## The Short
+## Usage
 
-Is this plug-in installed?  
+#### The Short
+
 Is there text running off the edge of your editor?  
+Is this plug-in installed?  
 Press `alt+down`.
 
 Done.
 
------
 
-## The Long
 
-This plug-in adds one command to Sublime Text 2 which exposes an easy-to-use horizontal scrolling, and makes a guess as to how to incorporate it for you.  
+#### The Long
+
+This plug-in adds one command to Sublime Text 2 which exposes easy-to-hotkey horizontal scrolling, and makes a guess as to how to incorporate it for you.
+
 By default, the hotkeys to scroll right and left are `alt+down` and `alt+up` respectively -- chosen to reflect Sublime's default `scroll_lines` behavior (`ctrl+up/down`). This, of course, can be mapped to any hotkey combination you might by want by modifying your personal `Preferences -> Key Bindings - User`.
 
 The command that this plug-in adds is (at most) this:
 
-    "command": "scroll_width", "args": {"by_character": True, "amount": 30}
+    "command": "scroll_width", "args": {"amount": [+/-]30, "by_character": True}
 
-`by_character` defaults to `True`, so if you ever set this command up, you can skip that argument. `amount` is simply an indicator of how far every call to `scroll_width` will move the screen. If `by_character` is left `True` motion is based on the width of an em-dash, thereby scaling motion with your current font size. If `by_character` is `False`, `scroll_width` will move the screen by `amount` of raw pixels (I'd strongly recommend pumping `amount` up to at least 150 if you're not scrolling `by_character`). 
+`by_character` defaults to `True`, so if you ever set this command up, you can skip that argument.  
+`amount` is simply an indicator of how far every call to `scroll_width` will move the screen (negative to scroll left).  
+If `by_character` is left `True` motion is based on the width of an em-dash, thereby scaling motion with your current font size. If `by_character` is `False`, `scroll_width` will move the screen by `amount` of raw pixels. I'd recommend pumping `amount` up to at least 150 if you're not scrolling `by_character`. 
 
 -----
 
