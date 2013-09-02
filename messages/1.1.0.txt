@@ -1,0 +1,8 @@
+Horizontal Scroll 1.1.0 changelog
+=================================
+
+Updating to support Sublime Text 3.
+
+Modifying default hotkeys to better align with Sublime Text 3 defaults.
+
+Adding `Preferences->Package Settings->Horizontal Scroll->Key Bindings` menue
