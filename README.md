@@ -5,7 +5,7 @@ for [Sublime Text 2][0] or [3][3]
 
 -------------
 
-Ever wanted to scroll horizontally in Sublime Text 2 with your keyboard?  
+Ever wanted to scroll horizontally in Sublime Text with your keyboard?  
 Well. Now you can.
 
 ## Installation
@@ -31,7 +31,7 @@ There weren't any good hotkeys left! I'm sorry!
 
 #### The Long
 
-This plug-in adds one command to Sublime Text 2 which exposes easy-to-hotkey horizontal scrolling, and makes a guess as to how to incorporate it for you.
+This plug-in adds one command to Sublime Text which exposes easy-to-hotkey horizontal scrolling, and makes a guess as to how to incorporate it for you.
 
 By default, the hotkeys to scroll right and left are, respectively, `alt+down` and `alt+up` for Windows/Linux, or `ctrl+alt+shift+down` and `ctrl+alt+shift+up` if you're on a Mac -- chosen to reflect Sublime's default `scroll_lines` behavior (`ctrl+up/down` and `ctrl+alt+up/down`). This, of course, can be mapped to any hotkey combination you might by want by modifying your personal `Preferences -> Key Bindings - User`. (And seriously, if you're on a Mac, please do.)
 
