@@ -14,7 +14,7 @@
                     { "command": "scroll_width", "args": {"amount": -30 }, "caption": "Left" },
                     { "command": "scroll_width", "args": {"amount": 30 }, "caption": "Right" }
                 ]
-            },
+            }
         ]
     },
 
