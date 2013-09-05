@@ -1,0 +1,4 @@
+Horizontal Scroll 1.2.0 changelog
+=================================
+
+Updated Readme, Fixed a typo.
