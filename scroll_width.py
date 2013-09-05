@@ -20,6 +20,6 @@ class ScrollWidthCommand(sublime_plugin.TextCommand):
             # This may be a superflous test, actually, I'm not sure.
             if new_x < 0:
                 new_x = 0
-        
+
         # Finally, perform the scroll.
         self.view.set_viewport_position((new_x, old_position[1]), True)
