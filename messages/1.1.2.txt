@@ -1,0 +1,4 @@
+Horizontal Scroll Version 1.1.2
+Windows 7 bugfix
+
+Hat tip to Kevin C. for pointing out an issue with my JSON formatting in Main.sublime-menu. A trailing comma was causing a crash in Windows 7, and has been corrected.
